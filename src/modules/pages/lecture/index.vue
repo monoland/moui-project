@@ -1,0 +1,9 @@
+<template>
+    <page-data
+        parent="system-dashboard"
+        slug="lecture"
+        title="Dosen"
+    >
+        <moui-table></moui-table>
+    </page-data>
+</template>

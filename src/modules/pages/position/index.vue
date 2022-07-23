@@ -1,0 +1,9 @@
+<template>
+    <page-data
+        parent="system-dashboard"
+        slug="position"
+        title="Jabatan"
+    >
+        <moui-table></moui-table>
+    </page-data>
+</template>

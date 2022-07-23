@@ -1,0 +1,10 @@
+<template>
+    <page-data
+        parent="system-study"
+        parent-key="study"
+        slug="lecture"
+        title="Dosen"
+    >
+        <moui-table></moui-table>
+    </page-data>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <page-data
+        parent="system-dashboard"
+        slug="faculty"
+        title="Fakultas"
+    >
+        <moui-table></moui-table>
+    </page-data>
+</template>

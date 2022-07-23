@@ -1,0 +1,9 @@
+<template>
+    <page-data
+        parent="system-dashboard"
+        slug="scholarship"
+        title="Beasiswa"
+    >
+        <moui-table></moui-table>
+    </page-data>
+</template>

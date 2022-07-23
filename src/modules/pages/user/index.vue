@@ -1,0 +1,9 @@
+<template>
+    <page-data
+        parent="system-dashboard"
+        slug="user"
+        title="Pengguna"
+    >
+        <moui-table></moui-table>
+    </page-data>
+</template>

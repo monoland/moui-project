@@ -43,7 +43,7 @@ class StudyLectureController extends Controller
      * @param  \App\Models\Study  $study
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, Study $study)
+    public function store(Request $request, Faculty $faculty, Study $study)
     {
         $this->validate($request, []);
 
@@ -57,7 +57,7 @@ class StudyLectureController extends Controller
      * @param  \App\Models\Lecture  $lecture
      * @return \Illuminate\Http\Response
      */
-    public function show(Study $study, Lecture $lecture)
+    public function show(Faculty $faculty, Study $study, Lecture $lecture)
     {
         return new LectureShowResource($lecture);
     }
@@ -70,7 +70,7 @@ class StudyLectureController extends Controller
      * @param  \App\Models\Lecture  $lecture
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Study $study, Lecture $lecture)
+    public function update(Request $request, Faculty $faculty,  Study $study, Lecture $lecture)
     {
         $this->validate($request, []);
 
@@ -84,7 +84,7 @@ class StudyLectureController extends Controller
      * @param  \App\Models\Lecture  $lecture
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Request $request, Study $study, Lecture $lecture)
+    public function destroy(Request $request, Faculty $faculty, Study $study, Lecture $lecture)
     {
         $this->validate($request, []);
 

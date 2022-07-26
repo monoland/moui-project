@@ -17,7 +17,8 @@ class LectureController extends Controller
     public function index(Request $request)
     {
         return new LectureCollection(
-            Lecture::filter($request->filters)
+            Lecture::with(['position', 'university'])
+                ->filter($request->filters)
                 ->search($request->findBy)
                 ->sortBy($request->sortBy, $request->sortDesc)
                 ->paginate($request->itemsPerPage)

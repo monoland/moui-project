@@ -86,6 +86,16 @@ class Lecture extends Model
         );
     }
 
+    public function position()
+    {
+        return $this->belongsTo(Position::class);
+    }
+
+    public function university()
+    {
+        return $this->belongsTo(University::class);
+    }
+
     /**
      * The model store method
      *

@@ -9,11 +9,11 @@
     <title>MONOLAND</title>
     <link href="/css/system.c9b5e54d.css" rel="prefetch">
     <link href="/js/monoland.43c87409.js" rel="prefetch">
-    <link href="/js/system.0a7f3490.js" rel="prefetch">
+    <link href="/js/system.a83ead04.js" rel="prefetch">
     <link href="/css/chunk-vendors.d9e0508a.css" rel="preload" as="style">
     <link href="/css/index.css" rel="preload" as="style">
     <link href="/js/chunk-vendors.1a5c1491.js" rel="preload" as="script">
-    <link href="/js/index.92c9108a.js" rel="preload" as="script">
+    <link href="/js/index.87bed9d4.js" rel="preload" as="script">
     <link href="/css/chunk-vendors.d9e0508a.css" rel="stylesheet">
     <link href="/css/index.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <body><noscript><strong>We're sorry but MONOLAND doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
     <div id="monoland"></div>
     <script src="/js/chunk-vendors.1a5c1491.js"></script>
-    <script src="/js/index.92c9108a.js"></script>
+    <script src="/js/index.87bed9d4.js"></script>
 </body>
 
 </html>
